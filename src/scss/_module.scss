@@ -28,12 +28,6 @@ nav {
     }
 }
 
-nav {
-    .page-item {
-        background: #DAEAF5;
-    }
-}
-
 .feature-content {
     padding: 1rem 0;
     overflow: hidden;
@@ -41,6 +35,13 @@ nav {
 
 .section-content {
     padding: 1rem 0 0 0;
+}
+
+#feature-one {
+    iframe {
+        border: 0;
+        width: 100%;
+    }
 }
 
 .jumbotron {
@@ -79,4 +80,11 @@ nav {
     color: white;
     font-size: 0.8rem;
     padding: 2.5rem 0;
+}
+
+#footer-main {
+    a {
+        color: aquamarine;
+        text-decoration: underline;
+    }
 }

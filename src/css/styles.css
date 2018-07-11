@@ -6304,12 +6304,6 @@ h6 {
 img {
   max-width: 100%; }
 
-#footer-main {
-  background: #222;
-  color: white;
-  font-size: 0.8rem;
-  padding: 2.5rem 0; }
-
 #stage {
   background: url("../img/AyurvedaTreatment.jpg") center center no-repeat;
   background-size: cover;
@@ -6334,15 +6328,16 @@ img {
 nav .text-xs-center {
   text-align: center !important; }
 
-nav .page-item {
-  background: #DAEAF5; }
-
 .feature-content {
   padding: 1rem 0;
   overflow: hidden; }
 
 .section-content {
   padding: 1rem 0 0 0; }
+
+#feature-one iframe {
+  border: 0;
+  width: 100%; }
 
 .jumbotron {
   padding-top: 6rem;
@@ -6372,6 +6367,10 @@ nav .page-item {
   color: white;
   font-size: 0.8rem;
   padding: 2.5rem 0; }
+
+#footer-main a {
+  color: aquamarine;
+  text-decoration: underline; }
 
 /* Media Queries */
 @media screen and (min-width: 991px) {
